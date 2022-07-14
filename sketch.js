@@ -22,8 +22,8 @@ function setup(){
 }
 
 function draw(){
+    Engine.update(engine);
     background("black");
-    drops.display();
     
     for(var i=0; i<maxDrops;i++){
         drops[i].display();
